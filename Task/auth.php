@@ -20,9 +20,9 @@
         <form action="script/do_auth.php" method="POST">
             <h2>Авторизация</h2>
             <label for="email">Почта</label>
-            <input name="email" type="text" type="email" placeholder="email">
+            <input name="email" type="email" type="email" placeholder="email" required>
             <label for="password">Пароль</label>
-            <input name="password" type="password" placeholder="password">
+            <input name="password" type="password" placeholder="password" required>
             <button type="submit">Войти</button>
         </form>
     </main>
